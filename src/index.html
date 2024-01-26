@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header-start" id="header-start">
+        <H1>Rock-Paper-Scissors Game</H1>
+       <button type="button" class="btn-title" id="modal-start-btn" onclick="startGame()">Start</button>
+
+        </div>
+    </header>
+    <main  class="game-main" id="game-main" > 
+    <p> Make youre choise:</p>
+    <button onclick="playGame('rock')">Rock</button>
+    <button onclick="playGame('paper')">Paper</button>
+    <button onclick="playGame('scissors')">Scissors</button>
+    <div id="result"></div>
+    
+    </main>
+
+    <footer></footer>
+    <script src="./game.js"></script>
+</body>
+</html>
